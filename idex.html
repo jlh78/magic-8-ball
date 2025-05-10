@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Magic 8 Ball</title>
 </head>
 <body>
-
-    <h1>Magic 8 Ball</h1>
-
-    <label for="question">The Terminal beckons, it knows you seek answers:</label>
-    <br>
-    <input type="text" id="question" name="question"
-
-    <br><br>
-    <button id="shakeButton">Invoke the machine spirit</button>
-
-    <p id="answer"> The Terminal knows all .</p>
+    <div class="header">
+        <h1>Terminal 8</h1>
+    </div>
+ 
+    <div class="center-container">
+        <form>
+            <label for="question">The Terminal beckons, it knows you seek answers:</label>
+            <input type="text" id="question" name="question">
+            <button id="shakeButton">Invoke the machine spirit</button>        
+        </form>
+    </div>
+    
+    <div class="answer-container">
+        <p>answer</p>
+        <p id="answer"> The Terminal knows all </p>     
+    </div>
+       
 
 </body>
-<html>
+</html>
+
