@@ -1,57 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    background-image: url("CSS.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: aquamarine;
-    display: flex; 
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: "turret road","serif";
-    font-size: xx-large;
+  background-image: url("assets/CSS.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; /* This makes sure the picture doesn't move when on smaller viewports(mobile devices and smaller screens), 
+  however, it may behave inconsistently on some mobile browsers. 
+  Feel free to research dynamiic viewport height units (dvh, svh, and lvh) or alternitive solutions */
+  width: 100vw;
+  color: aquamarine;
+  font-family: "Turret Road", serif;
+  font-size: xx-large;
 }
 
-.header, 
-.center-container,
-.answer-container {
-    /* border: 10px solid red; */
-    /* margin: 20px 0 20px 0;  */
+.top-container {
+    height: 25%;
 }
 
+header {
+  text-align: center;
+  margin-top: 1rem; /* You can experiment with the margin to get the desired result */
+}
 
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem; /* Feel free to experiment with the padding to get the desired result */
+}
 
 .center-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 50%; /* This ensures the answer stays exactly in the middle of the page.
+  Feel free to experiment with the height to get the desired result */
+  color: black;
+  /* border: 10px solid blue; */ /* If you need a guide on which container you're working in */
 }
 
 form {
-    /* display: flex;
-    flex-direction: column; */
-    /* border: 10px solid green; */
+  text-align: center;
+  width: 80%;
+}
+
+.bottom-container {
+    height: 25%; /* You can also adjust the height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: flex-end;  */ /* This pushes the bottom container to the very bottom of the page */
     text-align: center;
-    
-}
-
-#question {
-    /* border: 10px solid blue; */
-    width: 50%;
-}
-
-/* .answer-container {
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-
-} */
-
-#answer {
-    position: fixed;
-    bottom: 0;
-    /* margin-right: 1000px; */
 }
