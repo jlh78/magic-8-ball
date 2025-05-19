@@ -10,6 +10,15 @@
 
 <body>
 
+    <!-- <audio src="/music.mp3" autoplay></audio> -->
+
+    <audio id="music" loop>
+        <source src="assets/drone-horror-and-suspense-background-loop-339888.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+
+
     <div class="top-container">
         <!-- Placed the h1 in a header -->
         <header>
@@ -19,9 +28,9 @@
         <!-- Form inputs are inside of the form container -->
         <div class="form-container">
             <form>
-                <label for="question">The Terminal beckons, it knows you seek answers:</label>
+                <label for="question">The Terminal beckons, it knows you seek Answers:</label>
                 <input type="text" id="question" name="question">
-                <button id="shakeButton">Invoke the machine spirit</button>
+                <button id="shakeButton">Invoke the Machine Spirit</button>
             </form>
         </div>
     </div>
@@ -31,7 +40,7 @@
 
         <!-- Placed the answer p tag inside of its own answer-container-->
         <div class="answer-container">
-            <p>answer</p>
+            <p id="answer"></p>
         </div>
 
     </div>
@@ -39,9 +48,10 @@
     <!-- bottom-container -->
     <div class="bottom-container">
         <div class="answer-container">
-            <p id="answer"> The Terminal knows all </p>
+            <p id="message" style="display: none;"> The Terminal knows All </p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
