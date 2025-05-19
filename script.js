@@ -34,10 +34,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-shakeButton.addEventListener("click", function(){   
+shakeButton.addEventListener("click", function () {
     const message = document.getElementById("message");
     const music = document.getElementById("music")
 
-    message.style.display = ("block");
+    // message.style.display = ("block");
+    if (message.style.display === "none") {
+        message.style.display = ("block");
+        setTimeout(() => {
+            message.style.display = "none";
+        }, 2000);
+    } else {
+        message.style.display = ("block");
+    }
     music.play();
 });
