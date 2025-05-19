@@ -26,7 +26,7 @@ const responses = [
     "Carry the Emperor's will as your torch, with it destroy the shadows.",
     "Cease and repent!",
     "Compromise is akin to treachery.",
-    "Dark Dream lie upon the Heart.",
+    "Dark Dreams lie upon the Heart.",
     "Doubt is a sign of weakness.",
     "Drink deep of Victory and remember the fallen.",
     "Duty Prevails.",
