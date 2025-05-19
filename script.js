@@ -23,7 +23,7 @@ const responses = [
     "Brave are they who know everything yet fear nothing.",
     "Burn the Heretic.",
     "By the manner of our Death we are judged.",
-    "Carry the Emperor's wull as your torch, with it destroy the shadows.",
+    "Carry the Emperor's will as your torch, with it destroy the shadows.",
     "Cease and repent!",
     "Compromise is akin to treachery.",
     "Dark Dream lie upon the Heart.",
